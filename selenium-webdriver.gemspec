@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'multi_json', '~> 1.0'
   s.add_dependency 'childprocess', '>= 0.2.5'
   s.add_dependency 'websocket', '~> 1.0.4'
-  s.add_dependency 'rubyzip', '~> 1.0.0'
+  s.add_dependency 'zipruby', '0.3.6'
 
   s.add_development_dependency 'rspec', '~> 2.0'
   s.add_development_dependency 'rack', '~> 1.0'
