@@ -4,11 +4,11 @@ This gem provides Ruby bindings for WebDriver and has been tested to work on MRI
 
 ## Changes
 
-This version remove all rubyzip requirements in favor of zipruby.
+This version removes all rubyzip requirements in favor of zipruby. The only edited file is `lib/selenium/webdriver/common/zipper.rb`.
 
 ## Install
 
-    gem install selenium-webdriver
+    gem 'selenium-webdriver', :git => 'git://github.com/Shopify/selenium-webdriver.git'
 
 ## Links
 
