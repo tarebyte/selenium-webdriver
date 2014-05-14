@@ -4,7 +4,7 @@ $:.unshift lib unless $:.include?(lib)
 
 Gem::Specification.new do |s|
   s.name         = "selenium-webdriver"
-  s.version      = '2.39.0'
+  s.version      = '2.41.0'
   s.platform     = Gem::Platform::RUBY
   s.authors      = ["Jari Bakken"]
   s.email        = ["jari.bakken@gmail.com"]

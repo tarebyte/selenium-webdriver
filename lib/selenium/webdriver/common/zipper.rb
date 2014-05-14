@@ -21,13 +21,13 @@ module Selenium
           Zip::Archive.open(path) do |ar|
             ar.each do |zf|
               file = File.join(destination, zf.name)
-              
+
               if zf.directory?
                 FileUtils.mkdir_p(file)
               else
                 dirname = File.dirname(file)
                 FileUtils.mkdir_p(dirname) unless File.exist?(dirname)
-          
+
                 open(file, 'wb') do |f|
                   f << zf.read
                 end
