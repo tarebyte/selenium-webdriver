@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.description  = "WebDriver is a tool for writing automated tests of websites. It aims to mimic the behaviour of a real user, and as such interacts with the HTML of the application."
 
   s.add_dependency 'multi_json', '~> 1.0'
-  s.add_dependency 'childprocess', '>= 0.2.5'
+  s.add_dependency 'childprocess', '>= 0.5.0'
   s.add_dependency 'websocket', '~> 1.0.4'
   s.add_dependency 'zipruby', '0.3.6'
 
